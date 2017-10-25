@@ -11,14 +11,14 @@ Using pip, Python’s recommended tool for installing packages you can install t
 ## Create App
 In a new folder create a file called app.py and put the following code inside of it:
 
-`// ./app.pyfrom 
-flask import Flask
+`// ./app.pyfrom` 
+`flask import Flask`
 
-app = Flask(__name__)
+`app = Flask(__name__)`
 
-@app.route('/')
-  def index(): 
-     return 'Yo, it's working!'
+`@app.route('/')`
+  `def index(): `
+    ` return 'Yo, it's working!'`
 
-if __name__ == "__main__": 
-  app.run()`
+`if __name__ == "__main__":`
+  `app.run()`
