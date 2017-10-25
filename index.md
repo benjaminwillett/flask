@@ -17,8 +17,8 @@ In a new folder create a file called app.py and put the following code inside of
 `app = Flask(__name__)`
 
 `@app.route('/')`
-  `def index(): `
-    ` return 'Yo, it's working!'`
+  `def index():`
+    `return 'Yo, it's working!'`
 
 `if __name__ == "__main__":`
   `app.run()`
