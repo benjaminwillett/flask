@@ -33,3 +33,7 @@ We need to put those dependencies in a file called `requirements.txt`. We can do
 The last thing that we need is a Procfile. In it’s simplest form you put one process per line that you want to be ran on your Heroku environment.
 
 In our case we want to run our Flask application and we will use gunicorn to do this. Create a file named `Procfile` and put the following in it:`web: gunicorn app:app`
+
+We can verify that our application works by running `python app.py` and then go to `127.0.0.1:5000` in the browser to see it in action:
+
+Lastly, we need to create a new app in Heroku. Please see [Heroku page](https://benjaminwillett.github.io/heroku/) for details.
