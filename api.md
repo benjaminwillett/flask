@@ -63,8 +63,8 @@ Your salary API is up and running now on localhost , port 5000. There are two ru
 See how flask is serving database data into JSON through the REST API we defined. Next modify URL to peek all employees who are working in Police department.http://localhost:5000/dept/police
 
 code walk-through is as follows
-*  I downloaded latest Salary dataset from chicago data site
-*  Dumped that CSV  into my SQLite db.
 *  Used SQLAlchemy to connect to database and do select operations.
 *  Created Flask-Restful classes to map functions with API URL
-*  Returned the queried data as JSON ,which can be used universally.See how simple it is to create a data API. We can also add support to PUT,POST and DELETE on data too.We can also have an authentication system for fetching data through API.
+*  Returned the queried data as JSON ,which can be used universally.
+
+See how simple it is to create a data API. We can also add support to PUT,POST and DELETE on data too.We can also have an authentication system for fetching data through API.
