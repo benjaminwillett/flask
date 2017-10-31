@@ -1,5 +1,7 @@
 ### flask app that serves this data as a REST API.
 
+Create a new app
+
 ```
 $ virtualenv rest-api
 $ source rest-api/bin/activate
