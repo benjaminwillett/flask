@@ -38,4 +38,6 @@ We can verify that our application works by running `python app.py` and then go 
 
 Lastly, we need to create a new app in Heroku. Please see [Heroku page](https://benjaminwillett.github.io/heroku/) for details.
 
+Now we know the basics of getting a Flask app up and running you can try building an API.
+
 - [Create a Flask API](api.md)
