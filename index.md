@@ -37,3 +37,5 @@ In our case we want to run our Flask application and we will use gunicorn to do 
 We can verify that our application works by running `python app.py` and then go to `127.0.0.1:5000` in the browser to see it in action:
 
 Lastly, we need to create a new app in Heroku. Please see [Heroku page](https://benjaminwillett.github.io/heroku/) for details.
+
+- [Create a Flask API](api.md)
